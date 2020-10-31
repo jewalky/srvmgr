@@ -126,7 +126,7 @@ JMP    imp_MapClosed                     4FE2D0 /// close map
 //JMP    imp_ShopCrash3                    54749F /// shop crash #3 
 //JMP    imp_ShopCrash4                    544E46 /// shop crash #4 
 JMP    imp_ServerChat                    494F84 /// <server>: chat 
-JMP    imp_PIadd                         535B4A /// create playerInfo struct 
+JMP    imp_PIadd                         4FF418 /// create playerInfo struct 
 JMP    imp_PIdel                         535439 /// delete playerInfo struct 
 JMP    imp_CheckShield                   506A53 /// shield bug disable 
 JMP    imp_ReturnFail                    52C45E /// return to map fail: forced return 
@@ -177,4 +177,4 @@ JMP    imp_DropAll                       52DA11 // presumably drop all
 JMP    imp_ScaleSoftcoreExperienceReward 5610B6 // quest reward scaling 
 JMP    imp_LoadShopData                  59C66E // load shop data from alm 
 JMP    imp_EnterCustomShop               502C50 // enter custom shop instead of normal one 
-JMP    imp_UpdateOnReturn                508E9D // backported from recent srvmgr. esoteric
+JMP    imp_UpdateOnReturn                508E9D // required so that fresh list of players is sent to hat, when we remove a player

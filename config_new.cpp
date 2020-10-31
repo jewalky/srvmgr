@@ -36,7 +36,7 @@ uint32_t ParseLogFlags(std::string string)
                 flag = SVL_BUILDINGS;
             else if(par == "saves")
                 flag = SVL_SAVES;
-            else if(par == "dimplomacy")
+            else if(par == "diplomacy")
                 flag = SVL_DIPLOMACY;
 			else if(par == "all")
 				flag = SVL_ALL;
