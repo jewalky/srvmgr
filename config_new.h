@@ -43,6 +43,16 @@ namespace Config
 	extern std::string ControlDirectory;
 
 	extern bool ExitingCleanly;
+
+    extern std::string IPAddress;
+    extern uint16_t IPAddressP;
+
+    extern std::string IPAddress2;
+    extern uint16_t IPAddress2P;
+
+    extern std::string HatAddress;
+    extern uint16_t HatAddressP;
+
 }
 
 int ReadConfig(const char* filename);

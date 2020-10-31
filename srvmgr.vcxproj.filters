@@ -126,6 +126,9 @@
     <ClCompile Include="multiplayer_shop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="screenshots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="charcheck.h">
@@ -207,6 +210,9 @@
       <Filter>Header Files\lib</Filter>
     </ClInclude>
     <ClInclude Include="multiplayer_shop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screenshots.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -92,6 +92,7 @@
     <ClCompile Include="pvm2.cpp" />
     <ClCompile Include="scanrange.cpp" />
     <ClCompile Include="scanrange_check.cpp" />
+    <ClCompile Include="screenshots.cpp" />
     <ClCompile Include="shared.cpp" />
     <ClCompile Include="srvmgr.cpp" />
     <ClCompile Include="srvmgr_new.cpp" />
@@ -123,6 +124,7 @@
     <ClInclude Include="protolayer_hat.h" />
     <ClInclude Include="pvm2.h" />
     <ClInclude Include="scanrange.h" />
+    <ClInclude Include="screenshots.h" />
     <ClInclude Include="shared.h" />
     <ClInclude Include="srvmgr.h" />
     <ClInclude Include="srvmgr_new.h" />
